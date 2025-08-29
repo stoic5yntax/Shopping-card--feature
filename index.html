@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Site - Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="script.js"></script>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <header>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <div class="cart-icon" role="button" aria-label="Cart">
+          <i class="bi bi-bag-fill" aria-hidden="true"></i>
+          <span id="cart-counter" aria-live="polite">0</span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main class="main">
+      <!-- PRODUCT LISTING -->
+      <section
+        class="listing"
+        id="listing"
+        aria-label="Product listing"
+      ></section>
+
+      <!-- CART -->
+      <aside class="cart" id="cart" aria-label="Shopping cart"></aside>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2025 MySneakerStore. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
